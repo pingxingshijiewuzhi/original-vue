@@ -2,12 +2,12 @@
  * @Author: wangzichi
  * @Date: 2022-02-12 17:11:18
  * @LastEditors: wangzichi
- * @LastEditTime: 2022-02-12 17:29:08
+ * @LastEditTime: 2022-02-12 17:36:29
  * @Description: file content
- * @FilePath: \studyVueoriginal\vueoriginal\src\router\index.js
+ * @FilePath: \studyVueoriginal\vueoriginal\src\routercopy\index.js
  */
 import Vue from 'vue'
-import VueRouter from 'vue-router'
+import VueRouter from './myvue-router'
 import Home from '../views/Home.vue'
 
 // 1.VueRouter是一个插件

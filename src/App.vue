@@ -1,10 +1,20 @@
+<!--
+ * @Author: wangzichi
+ * @Date: 2022-02-12 17:11:18
+ * @LastEditors: wangzichi
+ * @LastEditTime: 2022-02-12 17:27:32
+ * @Description: file content
+ * @FilePath: \studyVueoriginal\vueoriginal\src\App.vue
+-->
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
+      <!-- 路由跳转连接 -->
+      <router-link to="/">Home</router-link>|
       <router-link to="/about">About</router-link>
     </div>
-    <router-view/>
+    <!-- 路由出口 -->
+    <router-view />
   </div>
 </template>
 
