@@ -2,9 +2,9 @@
  * @Author: wangzichi
  * @Date: 2022-02-12 17:11:18
  * @LastEditors: wangzichi
- * @LastEditTime: 2022-02-12 17:36:29
+ * @LastEditTime: 2022-02-16 17:17:08
  * @Description: file content
- * @FilePath: \studyVueoriginal\vueoriginal\src\routercopy\index.js
+ * @FilePath: \vueoriginal\src\routercopy\index.js
  */
 import Vue from 'vue'
 import VueRouter from './myvue-router'
@@ -35,6 +35,8 @@ const routes = [
 
 // 2.创建实例
 const router = new VueRouter({
+  mode: 'hash',
+  // base: process.env.BASE_URL,
   routes // 配置项
 })
 
